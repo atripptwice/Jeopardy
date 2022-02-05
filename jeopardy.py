@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Spyder Editor
-
-This is a temporary script file.
+A small program that give random jeopardy questions
 """
-
 import requests
 import json
 response = requests.get('https://jservice.io/api/random')
